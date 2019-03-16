@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/nv/coc-ice/peddu3/ECE-4122/p3/src/complex_cuda.h
+iostream
+-
+
+/nv/coc-ice/peddu3/ECE-4122/p3/src/input_image_cuda.cc
+input_image_cuda.h
+/nv/coc-ice/peddu3/ECE-4122/p3/src/input_image_cuda.h
+complex_cuda.h
+/nv/coc-ice/peddu3/ECE-4122/p3/src/complex_cuda.h
+fstream
+-
+sstream
+-
+iostream
+-
+stdlib.h
+-
+
+/nv/coc-ice/peddu3/ECE-4122/p3/src/input_image_cuda.h
+
